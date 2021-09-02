@@ -8,49 +8,52 @@
     tools:context=".LocationActivity">
 
     <ImageView
+        android:id="@+id/loc_gif"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/loc_gif"
-        android:layout_marginTop="170dp"
         android:layout_marginLeft="80dp"
-        />
+        android:layout_marginTop="170dp" />
 
     <TextView
         android:id="@+id/delivering"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/delivering_to"
-        android:textSize="30sp"
-        android:textColor="@color/ratingHigh"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/loc_gif"
+        android:paddingTop="20dp"
         android:layout_marginLeft="60dp"
-        android:layout_centerVertical="true" />
+        android:text="@string/delivering_to"
+        android:textColor="@color/ratingHigh"
+        android:textSize="30sp" />
+
     <ImageView
         android:id="@+id/loc_image"
         android:layout_width="40dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="50dp"
-        android:padding="4dp"
-        android:src="@drawable/locationn"
         android:layout_below="@+id/delivering"
-        />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="4dp"
+        android:src="@drawable/locationn" />
+
     <TextView
         android:id="@+id/loc_address"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:padding="4dp"
         android:layout_below="@+id/delivering"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:padding="4dp" />
 
 
     <Button
+        android:id="@+id/order_now"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/order_now"
         android:layout_alignParentBottom="true"
+        android:backgroundTint="#3449AE"
         android:text="@string/confirm_location"
-        android:textSize="20sp"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </RelativeLayout>

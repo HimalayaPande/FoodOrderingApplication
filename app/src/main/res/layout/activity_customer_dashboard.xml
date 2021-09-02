@@ -11,13 +11,14 @@
         android:id="@+id/image1"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="384dp"
         android:paddingTop="6dp"
-        android:layout_marginEnd="365dp"
         android:src="@drawable/locationn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
+
     <TextView
         android:id="@+id/edittext1"
         android:layout_width="match_parent"

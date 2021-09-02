@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodorderingapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodOrderingApplication">
+        <activity android:name=".AcceptOrRejectOrderActivity"></activity>
+        <activity android:name=".AdminFeedbackActivity" />
+        <activity android:name=".CustomerFeedbackActivity" />
+        <activity android:name=".ViewCustomerDetailsActivity" />
+        <activity android:name=".ApprovedRestaurantDataActivity" />
+        <activity android:name=".RestaurantFeedbackActivity" />
+        <activity android:name=".RestaurantOrderHistoryActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".MenuItemsActivity" />
+        <activity android:name=".OrderHistory" />
+        <activity android:name=".Profile" />
+        <activity android:name=".LocationActivity" />
+        <activity
+            android:name=".CustomerDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerSignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddRestaurantDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantSignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="true" />
+        <activity android:name=".DisplayRestaurantDataActivity" />
+        <activity
+            android:name=".RestaurantRegistration"
+            android:label="@string/title_activity_restaurant_registration"></activity>
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

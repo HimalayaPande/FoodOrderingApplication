@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UpiFragment">
+
+    <TextView
+        android:text="@string/add_details"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/cardname"
+        android:layout_marginTop="80dp"
+        android:hint="@string/enter_your_upi_id_or_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill"
+        android:layout_marginStart="20dp"
+        android:inputType="text">
+    </EditText>
+</FrameLayout>

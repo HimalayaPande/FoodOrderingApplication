@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="32dp"
+            android:id="@+id/congratulation_card"
+            app:cardBackgroundColor="#FAFAFA"
+            app:cardElevation="0dp"
+            android:layout_gravity="bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="32dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="32dp"
+                    android:id="@+id/message"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/your_order_is_placed_waiting_for_restaurant_confirmation"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_to_dashboard"
+                    android:id="@+id/read_btn"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/ratingHigh"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="1dp"
+            android:src="@drawable/tick_green"
+            android:layout_gravity="center_horizontal|top"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/approvalRestaurant"
+        android:icon="@drawable/ic_baseline_approval_24"
+        android:title="@string/approval_of_restaurant"/>
+    <item
+        android:id="@+id/viewrestaurantdetails"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="@string/restaurant_details"/>
+    <item
+        android:id="@+id/viewcustomerdetails"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:title="@string/customer_details"/>
+    <item
+        android:id="@+id/viewcustomerfeedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="@string/feedback"/>
+
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/food_card">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/imageView"
+                android:scaleType="centerCrop"
+                android:layout_alignParentTop="true"
+                />
+
+            <Button
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:textAllCaps="false"
+                android:backgroundTint="#D2D1CD"
+                android:textColor="@color/black"
+                android:alpha="0.75" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginStart="6dp"
+
+                android:layout_below="@+id/imageView"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_star"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="75dp"
+                android:layout_below="@+id/imageView"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_below="@+id/imageView"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/textView"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:id="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView3"
+                />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

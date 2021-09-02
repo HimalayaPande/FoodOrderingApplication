@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/additems"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/add_menu"/>
+    <item
+        android:id="@+id/customerorders"
+        android:icon="@drawable/ic_history"
+        android:title="@string/customer_orders"/>
+    <item
+        android:id="@+id/acceptreject1"
+        android:icon="@drawable/ic_baseline_check_circle_outline_24"
+        android:title="@string/accept_reject"/>
+    <item
+        android:id="@+id/customerfeedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="@string/customer_feedback"/>
+
+</menu>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "614736418541",
+    "project_id": "my-loginapplication-20c88",
+    "storage_bucket": "my-loginapplication-20c88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614736418541:android:c0fd84c26dba54f9741ee4",
+        "android_client_info": {
+          "package_name": "com.example.foodorderingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614736418541-6pjsttimmem779ubnginl79nitfuiee2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFmYxlAouBYgSu_BvHvDH7B36_j6EoYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614736418541-6pjsttimmem779ubnginl79nitfuiee2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614736418541:android:78d21a787aa00b41741ee4",
+        "android_client_info": {
+          "package_name": "com.example.myloginapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614736418541-6pjsttimmem779ubnginl79nitfuiee2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFmYxlAouBYgSu_BvHvDH7B36_j6EoYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614736418541-6pjsttimmem779ubnginl79nitfuiee2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

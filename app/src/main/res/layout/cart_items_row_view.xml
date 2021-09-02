@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp">
+    <ImageView
+        android:id="@+id/category"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/item_name"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rupeesymbol"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/item_price"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black" />
+    <RelativeLayout
+        android:id="@+id/minus_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/i_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            app:srcCompat="@drawable/ic_plus"
+            android:padding="6dp"
+            />
+
+        <TextView
+            android:id="@+id/t_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_minus"
+            android:id="@+id/i_minus"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="50dp"
+            android:padding="6dp"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
